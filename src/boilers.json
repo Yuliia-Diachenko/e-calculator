@@ -1,0 +1,67 @@
+[
+  {
+    "images": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
+    "firm": "Atlantic",
+    "model": "",
+    "volume": "",
+    "power": "",
+    "typeHeatingElement": "",
+    "form": "",
+    "typeInstallion":"",
+    "timeHeating":"",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "images": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "firm": "Atlantic",
+    "model": "",
+    "volume": "",
+    "power": "",
+    "typeHeatingElement": "",
+    "form": "",
+    "typeInstallion":"",
+    "timeHeating":"",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "images": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
+    "firm": "Electrolux",
+    "model": "EWH 30 Maximus",
+    "volume": "30 l",
+    "power": "2000 Vt",
+    "typeHeatingElement": "closed (dry)",
+    "form":"flat",
+    "typeInstallion":"vertical/horizontal",
+    "timeHeating":"63 min",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "images": "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
+    "firm": "Gorenje",
+    "model": "",
+    "volume": "",
+    "power": "",
+    "typeHeatingElement": "",
+    "form": "",
+    "typeInstallion":"",
+    "timeHeating":"",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "images": "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
+    "firm": "Gorenje",
+    "model": "",
+    "volume": "",
+    "power": "",
+    "typeHeatingElement": "",
+    "form": "",
+    "typeInstallion":"",
+    "timeHeating":"",
+    "isOnline": false,
+    "id": 1284
+  }
+]
