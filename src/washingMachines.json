@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "brand": "Samsung",
+    "model": "WW90T554DAX",
+    "type": "Front Load",
+    "capacity_kg": 9,
+    "spinSpeed_rpm": 1400,
+    "energyRating": "A+++",
+    "waterConsumption_liters": 50,
+    "dimensions_cm": {
+      "width": 60,
+      "height": 85,
+      "depth": 55
+    },
+    "weight_kg": 65,
+    "noiseLevel_dB": {
+      "washing": 52,
+      "spinning": 74
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": true,
+      "steamWash": true,
+      "childLock": true,
+      "wifiControl": false,
+      "selfCleaning": true,
+      "timerDelay": true
+    }
+  },
+  {
+    "id": 2,
+    "brand": "LG",
+    "model": "T2107VS3W",
+    "type": "Top Load",
+    "capacity_kg": 7,
+    "spinSpeed_rpm": 1200,
+    "energyRating": "A++",
+    "waterConsumption_liters": 58,
+    "dimensions_cm": {
+      "width": 54,
+      "height": 92,
+      "depth": 54
+    },
+    "weight_kg": 40,
+    "noiseLevel_dB": {
+      "washing": 50,
+      "spinning": 73
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": false,
+      "steamWash": false,
+      "childLock": true,
+      "wifiControl": false,
+      "selfCleaning": false,
+      "timerDelay": true
+    }
+  },
+  {
+    "id": 3,
+    "brand": "Bosch",
+    "model": "WAW28590EU",
+    "type": "Front Load",
+    "capacity_kg": 8,
+    "spinSpeed_rpm": 1600,
+    "energyRating": "A+++",
+    "waterConsumption_liters": 47,
+    "dimensions_cm": {
+      "width": 60,
+      "height": 85,
+      "depth": 59
+    },
+    "weight_kg": 66,
+    "noiseLevel_dB": {
+      "washing": 48,
+      "spinning": 72
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": true,
+      "steamWash": true,
+      "childLock": true,
+      "wifiControl": false,
+      "selfCleaning": true,
+      "timerDelay": true
+    }
+  },
+  {
+    "id": 4,
+    "brand": "Whirlpool",
+    "model": "FSCR 90430",
+    "type": "Front Load",
+    "capacity_kg": 9,
+    "spinSpeed_rpm": 1400,
+    "energyRating": "A+++",
+    "waterConsumption_liters": 52,
+    "dimensions_cm": {
+      "width": 59.5,
+      "height": 85,
+      "depth": 61
+    },
+    "weight_kg": 72,
+    "noiseLevel_dB": {
+      "washing": 49,
+      "spinning": 70
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": true,
+      "steamWash": false,
+      "childLock": true,
+      "wifiControl": false,
+      "selfCleaning": false,
+      "timerDelay": true
+    }
+  },
+  {
+    "id": 5,
+    "brand": "Electrolux",
+    "model": "EWT1276EOW",
+    "type": "Top Load",
+    "capacity_kg": 7,
+    "spinSpeed_rpm": 1200,
+    "energyRating": "A+",
+    "waterConsumption_liters": 56,
+    "dimensions_cm": {
+      "width": 40,
+      "height": 90,
+      "depth": 60
+    },
+    "weight_kg": 58,
+    "noiseLevel_dB": {
+      "washing": 53,
+      "spinning": 75
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": false,
+      "steamWash": false,
+      "childLock": false,
+      "wifiControl": false,
+      "selfCleaning": true,
+      "timerDelay": true
+    }
+  },
+  {
+    "id": 6,
+    "brand": "Miele",
+    "model": "WWF060 WCS",
+    "type": "Front Load",
+    "capacity_kg": 8,
+    "spinSpeed_rpm": 1600,
+    "energyRating": "A+++",
+    "waterConsumption_liters": 44,
+    "dimensions_cm": {
+      "width": 59.6,
+      "height": 85,
+      "depth": 63.6
+    },
+    "weight_kg": 75,
+    "noiseLevel_dB": {
+      "washing": 46,
+      "spinning": 72
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": true,
+      "steamWash": true,
+      "childLock": true,
+      "wifiControl": true,
+      "selfCleaning": true,
+      "timerDelay": true
+    }
+  },
+  {
+    "id": 7,
+    "brand": "Haier",
+    "model": "HW80-B14979",
+    "type": "Front Load",
+    "capacity_kg": 8,
+    "spinSpeed_rpm": 1400,
+    "energyRating": "A+++",
+    "waterConsumption_liters": 48,
+    "dimensions_cm": {
+      "width": 60,
+      "height": 85,
+      "depth": 55
+    },
+    "weight_kg": 69,
+    "noiseLevel_dB": {
+      "washing": 50,
+      "spinning": 74
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": true,
+      "steamWash": true,
+      "childLock": true,
+      "wifiControl": false,
+      "selfCleaning": false,
+      "timerDelay": true
+    }
+  },
+  {
+    "id": 8,
+    "brand": "Indesit",
+    "model": "BTW D61053",
+    "type": "Top Load",
+    "capacity_kg": 6,
+    "spinSpeed_rpm": 1000,
+    "energyRating": "A++",
+    "waterConsumption_liters": 62,
+    "dimensions_cm": {
+      "width": 40,
+      "height": 90,
+      "depth": 60
+    },
+    "weight_kg": 58,
+    "noiseLevel_dB": {
+      "washing": 54,
+      "spinning": 75
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": true,
+      "steamWash": false,
+      "childLock": true,
+      "wifiControl": false,
+      "selfCleaning": false,
+      "timerDelay": true
+    }
+  },
+  {
+    "id": 9,
+    "brand": "Beko",
+    "model": "WUE8736X0A",
+    "type": "Front Load",
+    "capacity_kg": 8,
+    "spinSpeed_rpm": 1400,
+    "energyRating": "A+++",
+    "waterConsumption_liters": 45,
+    "dimensions_cm": {
+      "width": 60,
+      "height": 84,
+      "depth": 59
+    },
+    "weight_kg": 62,
+    "noiseLevel_dB": {
+      "washing": 48,
+      "spinning": 72
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": true,
+      "steamWash": false,
+      "childLock": true,
+      "wifiControl": false,
+      "selfCleaning": true,
+      "timerDelay": true
+    }
+  },
+  {
+    "id": 10,
+    "brand": "Siemens",
+    "model": "WM14T6H0GB",
+    "type": "Front Load",
+    "capacity_kg": 9,
+    "spinSpeed_rpm": 1400,
+    "energyRating": "A+++",
+    "waterConsumption_liters": 46,
+    "dimensions_cm": {
+      "width": 60,
+      "height": 84.8,
+      "depth": 59
+    },
+    "weight_kg": 67,
+    "noiseLevel_dB": {
+      "washing": 47,
+      "spinning": 71
+    },
+    "features": {
+      "quickWash": true,
+      "delicateWash": true,
+      "steamWash": true,
+      "childLock": true,
+      "wifiControl": true,
+      "selfCleaning": true,
+      "timerDelay": true
+    }
+  }
+]
