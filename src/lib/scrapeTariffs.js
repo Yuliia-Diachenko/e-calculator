@@ -1,30 +1,39 @@
 import puppeteer from 'puppeteer';
+import fs from 'fs';
 
 async function scrapeTariffs() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
-    // Перейдіть на сайт обленерго
+    // Go to oblenergo website
     await page.goto('https://yasno.com.ua/b2c-tariffs', { waitUntil: 'networkidle2' });
 
-    // Чекання завантаження таблиці з тарифами
-    await page.waitForSelector('.tariffs-table tr');
+    
+    // Waiting for tariff items to load
+    await page.waitForSelector('.partial-tariff-price', { timeout: 60000 });
 
-    // Знайдіть і витягніть дані тарифів
+    // Find and extract tariff data
     const tariffs = await page.evaluate(() => {
-        const rows = document.querySelectorAll('.tariffs-table tr');
-        return Array.from(rows, row => {
-            const columns = row.querySelectorAll('td');
-            return {
-                name: columns[0]?.innerText || '',
-                price: columns[1]?.innerText || ''
-            };
-        }).filter(tariff => tariff.name && tariff.price);
+        const items = document.querySelectorAll('.partial-tariff__wrapper');
+        console.log('Кількість знайдених елементів:', items.length);
+        return Array.from(items).map(item => {
+            const consumerType = item.querySelector('.partial-tariff__title')?.innerText || 'Невідомий тип';
+            const taxes = item.querySelector('h3')?.innerText || '';
+            const tariff = item.querySelector('strong')?.innerText || '';
+            const unit = item.querySelector('span')?.innerText || '';
+            console.log('Знайдено тариф:', { consumerType, tariff, unit });
+            return { consumerType, taxes, tariff, unit };
+        }).filter(tariff => tariff.tariff && tariff.unit);
     });
 
+    // Logging of collected data
+    console.log('Зібрані тарифи:', tariffs);
+
+    // Saving data to a file
+    fs.writeFileSync('tariffs.json', JSON.stringify(tariffs, null, 2));
+
     await browser.close();
-    console.log(tariffs);
+    console.log('Дані тарифів збережено у файлі tariffs.json');
 }
 
 scrapeTariffs();
-
